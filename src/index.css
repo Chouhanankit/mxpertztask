@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#bgcolor {
+  /* background: rgb(97,50,232);; */
+  color: rgb(89, 92, 232);
+  /* background: linear-gradient(90deg, rgba(97,50,232,1) 12%, rgba(64,161,230,1) 96%); */
+}
+
+#bg {
+  background: linear-gradient(20deg,
+      rgba(96, 80, 232, 1) 19%,
+      rgba(40, 189, 237, 1) 88%);
+}
+
+#img {
+  width: auto;
+  height: 100vh;
+  background-image: url("../src/assets/galaxy.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+#cardBg {
+  height: auto;
+  background-color: #1a163d;
+}
+
+#text {
+  color: linear-gradient(117deg, rgba(12, 83, 157, 1) 1%, rgba(43, 190, 235, 1) 31%);
+  
+}
+
+#par {
+  width: 100%;
+  background: linear-gradient(90deg,
+      rgba(20, 22, 49, 1) 0%,
+      rgba(27, 28, 62, 1) 50%,
+      rgba(8, 11, 33, 1) 100%);
+}
+
+#para {
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+#hello {
+  height: 25vh;
+  background: linear-gradient(90deg,
+      rgba(22, 25, 49, 1) 0%,
+      rgba(12, 14, 43, 1) 50%,
+      rgba(6, 9, 33, 1) 100%);
+}
+
+#btn {
+  padding-left: 27px;
+  background-color: rgb(45, 47, 77);
+}
+
+#button {
+  padding-left: 35px;
+  border: 1px solid rgb(97, 50, 232);
+}
+
+#buttonn {
+  /* margin-top: 35px; */
+  border: 1px solid rgb(97, 50, 232);
+  background: linear-gradient(20deg,
+      rgba(96, 80, 232, 1) 19%,
+      rgba(40, 189, 237, 1) 88%);
+}
+
+#abcd {
+  height: auto;
+  background: linear-gradient(90deg,
+      rgba(20, 22, 49, 1) 0%,
+      rgba(27, 28, 62, 1) 50%,
+      rgba(8, 11, 33, 1) 100%);
+}
+
+#aaa {
+  background: linear-gradient(90deg,
+      rgba(35, 44, 104, 1) 0%,
+      rgba(22, 77, 108, 1) 72%);
+}
+
+#qqq {
+  border: 2px dashed rgb(85, 96, 179);
+  background-color: rgba(20, 20, 46, 0.181);
+}
+
+.clrbtn {
+  background: linear-gradient(117deg, rgba(12, 83, 157, 1) 1%, rgba(43, 190, 235, 1) 31%);
+}
+
+.crd {
+  background: linear-gradient(117deg, rgba(12, 83, 157, 1) 1%, rgba(43, 190, 235, 1) 31%);
+
+}
+
+.galaxyimg {
+  border-radius: 30px;
+}
